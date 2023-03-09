@@ -52,8 +52,7 @@ img {
     height: 30px;
 }
 
-.nav-left svg,
-.nav-left .avatar {
+.nav-left svg {
     margin-right: 16px;
 }
 
@@ -198,6 +197,8 @@ img {
 
 footer {
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .link-white {
@@ -273,7 +274,7 @@ footer p {
     cursor: pointer;
 }
 
-.icon-left svg {
+.icon-left img {
     margin-right: 8px;
 }
 
@@ -322,4 +323,16 @@ textarea:focus {
 
 .icons svg:hover {
     color: var(--color-gray);
+}
+
+.nav-left-label {
+    margin-left: 8px;
+}
+
+.nav-left .avatar {
+    margin-right: 0;
+}
+
+.post-description {
+    margin-left: 4px;
 }
